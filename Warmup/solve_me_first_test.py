@@ -14,4 +14,4 @@ class TestSolveMeFirstFunction(unittest.TestCase):
 			self.assertEqual(item[0], solveMeFirst(item[1], item[2]), "solveMeFirst with {0} and {1}, expect value {2}".format(item[1], item[2], item[0]))	
 
 if __name__ == '__main__':
-	unittest.main()		
+	unittest.main()

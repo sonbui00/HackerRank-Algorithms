@@ -14,9 +14,11 @@ class TestSimpleArrayFunction(unittest.TestCase):
 		]
 		for item in data:
 			self.assertEqual(
-				item[0] 
+				item[0]
 				,simpleArraySum(item[1], item[2])
 				,"Test simpleArraySum with n = {0} and ar = {1}, expect return value is {2}"
 						.format(item[1], item[2], item[0])
 			)
 
+if __name__ == '__main__':
+	unittest.main()
