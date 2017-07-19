@@ -2,7 +2,7 @@ import unittest
 from diagonal_difference import diagonalDifference
 
 class TestSimpleArrayFunction(unittest.TestCase):
-	def test_compare_the_triplets(self):
+	def test_diagonal_difference(self):
 		data = [
 			[3, [[11, 2, 4], [4, 5, 6], [10, 8, -12]], 15]
 			,[3, [[10, 2, 4], [4, 10, 6], [10, 8, -11]], 15]
